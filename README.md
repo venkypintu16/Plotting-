@@ -36,3 +36,14 @@ Histograms:
 •	Three histograms are created using the hist function for 'frequency', 'bloodpressure', and the combined binary variables ('first', 'second', 'final').
 •	Each histogram has a title specified by the main argument and an x-axis label specified by the xlab argument & a y-axis label specified by the ylab argument.
 •	Similar to the boxplots, the layout can be reseted to the default (1x1) after plotting histograms using par(mfrow=c(1, 1)).
+
+### Results explaination:
+
+Frequency:
+• The boxplot for frequency shows a median around 0.4, with some variability in the data.
+• The histogram for frequency indicates that the majority of values are concentrated around 0.4, with some values above and below this central tendency.
+
+Blood Pressure:
+• The boxplot for blood pressure shows a wide range of values. There is an outlier with a blood pressure value of 205.
+• The boxplot show the blood pressure median of around the value of 85-90. 
+• The histogram for blood pressure suggests a skewed distribution towards lower values, with a spike around 50-60 and a long tail towards higher values around 202.
